@@ -4,7 +4,7 @@ const books = [
         title: `Kitob nomi: "Halqa"`,
         author: 'Muallif: Akrom Malik',
         pages: `Betlar soni: 537`,
-        price: `Narxi: 60000`,
+        price: `Narxi: 60.000`,
         amount: 'Kitob soni:',
         raqam: '1',
         order: 'Buyurtma berish'
@@ -14,7 +14,7 @@ const books = [
         title: `Kitob nomi: "Dor ostidagi odam"`,
         author: 'Muallif: Amina Shenliko\'g\'li',
         pages: `Betlar soni: 144`,
-        price: `Narxi: 20000`,
+        price: `Narxi: 20.000`,
         amount: 'Kitob soni:',
         raqam: '1',
         order: 'Buyurtma berish'
@@ -24,7 +24,7 @@ const books = [
         title: `Kitob nomi: "Saodat asri"`,
         author: 'Muallif: Ahmad Lutfiy Qozonchi',
         pages: `Betlar soni: 966`,
-        price: `Narxi: 225000`,
+        price: `Narxi: 225.000`,
         amount: 'Kitob soni:',
         raqam: '1',
         order: 'Buyurtma berish'
@@ -34,7 +34,7 @@ const books = [
         title: `Kitob nomi: "Olam odam din va ilm"`,
         author: 'Muallif: Shayx Muhammad Sodiq',
         pages: `Betlar soni: 440`,
-        price: `Narxi: 44000`,
+        price: `Narxi: 44.000`,
         amount: 'Kitob soni:',
         raqam: '1',
         order: 'Buyurtma berish'
@@ -44,7 +44,7 @@ const books = [
         title: `Kitob nomi: "Iskanja"`,
         author: 'Muallif: Amina Shenliko\'g\'li',
         pages: `Betlar soni: 244`,
-        price: `Narxi: 35000`,
+        price: `Narxi: 35.000`,
         amount: 'Kitob soni:',
         raqam: '1',
         order: 'Buyurtma berish'
@@ -54,7 +54,7 @@ const books = [
         title: `Kitob nomi: "Payg\'ambarlar tarixi"`,
         author: 'Muxarrir: Anvar qori Tursunov',
         pages: `Betlar soni: 443`,
-        price: `Narxi: 63000`,
+        price: `Narxi: 63.000`,
         amount: 'Kitob soni:',
         raqam: '1',
         order: 'Buyurtma berish'
@@ -64,7 +64,7 @@ const books = [
         title: `Kitob nomi: "Hazrati Oisha (r.a)"`,
         author: 'Muallif: Abdulhamid Tahmoz',
         pages: `Betlar soni: 270`,
-        price: `Narxi: 69000`,
+        price: `Narxi: 69.000`,
         amount: 'Kitob soni:',
         raqam: '1',
         order: 'Buyurtma berish'
@@ -74,7 +74,7 @@ const books = [
         title: `Kitob nomi: "Qiyomat va oxirat"`,
         author: 'Muallif: Abu Homid G\'azzoliy',
         pages: `Betlar soni: 189`,
-        price: `Narxi: 36000`,
+        price: `Narxi: 36.000`,
         amount: 'Kitob soni:',
         raqam: '1',
         order: 'Buyurtma berish'
