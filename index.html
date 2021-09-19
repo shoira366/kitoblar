@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            font-family: 'Arial';
+        }
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+        }
+        .box{
+            background-color: beige;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 340px;
+            height: 601px;
+            /* border: 1px solid #000; */
+            padding-left: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 8px 8px rgb(235, 210, 164);
+            margin-right: 20px;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+        .box:nth-child(4n){
+            margin-right: 0;
+        }
+        .box:hover{
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+        }
+        img{
+            width: 100%;
+        }
+        h2{
+            margin: 0;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+        h3{
+            margin: 0;
+            margin-bottom: 10px;
+        }
+        p{
+            margin: 0;
+            margin-bottom: 10px;
+        }
+        input{
+            text-align: center;
+            width: 150px;
+            padding: 10px 0;
+            background-color: #ebc26ba1;
+            border: none;
+            border-radius: 3px;
+            margin-left: 5px;
+        }
+        label{
+            margin-bottom: 10px;
+        }
+        button{
+            cursor: pointer;
+            border: none;
+            width: 150px;
+            height: 40px;
+            text-align: center;
+            background-color: rgb(235, 91, 38);
+            color: cornsilk;
+            border-radius: 3px;
+            /* margin: 0 auto; */
+            margin-left: 76px; 
+            /* padding: 10px 50px 10px 50px; */
+        }
+        h1{
+            text-align: center;
+            text-transform: uppercase;
+            color: darkkhaki;
+        }
+
+
+        @media screen and (max-width:450px) {
+            ul{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            .box{
+                margin-right: 0;
+            }
+        }
+    </style>
+    <h1>kitob magazin 📚</h1>
+    <ul id="list"></ul>
+    <script src="./index.js"></script>
+</body>
+</html>
